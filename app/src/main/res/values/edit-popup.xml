@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditPopup" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="shapeAppearanceMediumComponent">@style/RoundShapeAppearance</item>
+        <item name="android:background">@color/Gunmetal</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/TitleText</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/BodyText</item>
+    </style>
+</resources>

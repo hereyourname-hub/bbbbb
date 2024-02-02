@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/deleteButton"
+        android:icon="@drawable/delete"
+        android:title="@string/clear_calories"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/progressButton"
+        android:icon="@drawable/progress_bars"
+        android:title="@string/view_progress"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/settingsButton"
+        android:icon="@drawable/settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom"/>
+</menu>

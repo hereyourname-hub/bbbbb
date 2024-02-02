@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rootlayout"
+    android:background="@color/white"
+    tools:context=".SleepActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/manropebold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#9296a3"
+        android:textStyle="bold"
+
+        android:id="@+id/timeday"
+        android:text="September 10, 2021"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/manropebold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/timeday"
+        android:id="@+id/locday"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Good morning!"></TextView>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/sunimageview"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@id/locday"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/sun"></ImageView>
+
+
+    <ImageView
+        android:id="@+id/slideupsun"
+        android:layout_width="341dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:src="@drawable/slideupsun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/sunimageview"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@id/sunimageview"
+        app:layout_constraintTop_toBottomOf="@+id/sunimageview"
+        app:layout_constraintVertical_bias="0.837"
+        tools:ignore="MissingConstraints"></ImageView>
+
+    <TextView
+        android:id="@+id/detailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratregular"
+        android:text="Swipe up to start tracking"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/slideupsun"
+        app:layout_constraintEnd_toEndOf="@id/slideupsun"
+        app:layout_constraintStart_toStartOf="@id/slideupsun"
+        app:layout_constraintTop_toTopOf="@id/slideupsun" />
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/arrowup1"
+        app:layout_constraintBottom_toTopOf="@+id/slideupsun"
+        app:layout_constraintEnd_toEndOf="@id/slideupsun"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@id/slideupsun"
+        app:layout_constraintTop_toBottomOf="@+id/sunimageview"
+        app:layout_constraintVertical_bias="0.821"></ImageView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

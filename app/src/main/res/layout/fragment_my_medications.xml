@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.MyMedicationsFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/myMedCardMedicationName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/standardTextView"
+            android:fontFamily="@font/montserratregular"/>
+
+        <TextView
+            android:id="@+id/myMedCardDosage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/standardTextView"
+            android:fontFamily="@font/montserratregular"/>
+
+        <TextView
+            android:id="@+id/myMedCardFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/standardTextView"
+            android:fontFamily="@font/montserratregular"/>
+
+        <TextView
+            android:id="@+id/myMedCardAlias"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:fontFamily="@font/montserrat"
+            style="@style/standardTextView" />
+
+        <TextView
+            android:id="@+id/myMedCardTakenSince"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/standardTextView"
+            android:fontFamily="@font/montserratregular"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/myMedsNotes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="100dp"
+                    android:text="@string/notes"
+                    android:fontFamily="@font/montserratregular"
+                    app:cornerRadius="30dp"
+                    android:layout_marginStart="25pt"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/myMedsEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="100dp"
+                    android:text="@string/edit"
+                    app:cornerRadius="30dp"
+                    android:fontFamily="@font/montserratregular"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>

@@ -1,0 +1,469 @@
+<resources>
+    <string name="app_name">BodyBoost</string>
+
+    <string name="st_sub_title">Nice to meet you, come join our community!
+        <br><b>Login</b> if you already have an account</br>
+        <br><b>Register</b> to get started with app</br>
+</string>
+    <string name="st_title">Hello!</string>
+    <string name="ill_img">ill_img</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="login_title">Login to app</string>
+
+    <string name="Login_sub_title">
+        <font color="#5A72BB"><b>Login</b></font> if you already have an account.
+    </string>
+
+    <string name="login_email">Your email</string>
+    <string name="login_password">Your password</string>
+    <string name="login_forgot_pw">Forgot Password?</string>
+    <string name="login_havent_account">
+        I don\'t have an account <font color="#5A72BB"><b>Register</b></font>
+    </string>
+    <string name="register_title">Create an account</string>
+
+    <string name="register_sub_title">
+        <font color="#5A72BB"><b>Register</b></font> to get started with app.
+    </string>
+    <string name="register_email">Your email</string>
+    <string name="register_username">Your username</string>
+    <string name="register_password">Your password</string>
+    <string name="register_confirm_password">Confirm Password</string>
+    <string name="register_btn">REGISTER</string>
+
+    <string name="register_have_account">
+        I already have an account <font color="#5A72BB"><b>Login</b></font>
+    </string>
+
+    <string name="home_title">Hello!</string>
+    <string name="home_sub_title">Welcom to home</string>
+
+    <string name="water_prof">Water</string>
+    <string name="pills_prof">Pills</string>
+    <string name="pills_profile">pills</string>
+    <string name="food_prof">Food</string>
+    <string name="kcal_prof">kcal</string>
+    <string name="count_kcal">0</string>
+    <string name="sleep_prof">Sleep</string>
+    <string name="count_sleep">0</string>
+    <string name="hours_prof">hours</string>
+    <string name="ml_prof">ml</string>
+    <string name="count_water">0</string>
+    <string name="count_pills">0</string>
+
+
+    <!--FITNESS don/t touch   SecondActivity-->
+    <string name="pose1">    Step 1:- Stand up straight and bend your arms without clenching your hands into fists.\n\n
+                             Step 2:- Start walking rhythmically, shifting from foot to foot. Set the rhythm with your hands, move at a comfortable, but fast enough pace to properly stretch your muscles and joints \n\n
+                             Step 3:- Do not raise your knees too high, but do not take small steps either. \n\n
+                             Step 4:- Move rhythmically at your own pace.\n\n
+                             Step 5:- Walking in place is a mandatory part of the training program for people with obesity, as it has no contraindications, is easy to perform and effectively trains the cardiovascular system. \n\n
+                             How much to do: 15-20 steps on each side.\n\n</string>
+
+    <string name="pose2">    Step 1:- From a standing position, legs together, bend your elbows and lift them up in front of you, bringing them together.\n\n
+                             Step 2:- Now take a step to the right, spreading your elbows to the sides. Then bring your hands together and put your legs together, returning to the starting position. \n\n
+                             Step 3:- Now take a step to the left, again spreading your arms to the sides. Move at a rhythmic pace, spreading your arms in sync with the movement of your legs. \n\n
+                             Step 4:- An excellent exercise at home for overweight people, which speeds up the metabolism and helps to lose weight.\n\n
+                             How much to do: 20-25 hand raises.\n\n</string>
+
+    <string name="pose3">    Step 1:- Place your feet slightly wider than your shoulders, place your hands behind your back, you can join your palms. \n\n
+                             Step 2:- Now shift the weight of the body to the right leg, bending the left knee, trying to touch the back of the thigh with the heel.\n\n
+                             Step 3:- Then shift your body weight to the left leg, repeating the movements of the right leg. Rhythmically shift from foot to foot, performing a shin loop, which will help you not only stretch your muscles, but also activate blood flow, which stimulates weight loss and fat burning.\n\n
+                             How much to do: 15-20 overlaps on each side.\n\n
+                             </string>
+
+    <string name="pose4">    Step 1:- From a standing position, feet together, arms along the body, take a wide step to the right, raising your arms through your sides up \n\n
+                             Step 2:- Return to the starting position by lowering your arms and putting your feet together.\n\n
+                             Step 3:- Then repeat on the other side.\n\n
+                             Step 4:- Perform the exercise at a fast, but comfortable pace, moving synchronously and rhythmically.\n\n
+                             Step 5:- An effective exercise for overweight people at home will help speed up the metabolism, dispersing the blood and saturating the cells of the body with oxygen, which activates the breakdown of fats and contributes to the loss of extra pounds.\n\n
+                             How much to do: 20-25 hand raises.\n\n
+                             </string>
+
+    <string name="pose5">   Step 1:- Stand straight, feet shoulder width apart. Bend your elbows and point your palms down \n\n
+                             Step 2:- Now take a step in place with your right foot, raising your knee high and trying to touch your palm.\n\n
+                             Step 3:- Then take the same step with your left foot.\n\n
+                             Step 4:- Walk at a comfortable pace, trying to raise your knees as high as possible.\n\n
+                             Step 5:- A simple but effective cardio exercise strengthens the muscles of the legs, stimulates weight loss and fits perfectly into a workout , as it has no contraindications.\n\n
+                             How much to do: 15-20 knee lifts on each side.\n\n
+                            </string>
+
+
+    <string name="pose6">    Step 1:- From a standing position, feet shoulder-width apart, raise your arms up and bend them at the elbows. \n\n
+                             Step 2:- Spread your elbows out to the sides, pointing your palms forward.\n\n
+                             Step 3:- Now rhythmically raise your arms up, straightening them, and then return to the starting position with your elbows bent at a right angle. At the top point, do not straighten your elbows completely so as not to injure the joints.\n\n
+                             Step 4:- Spread your elbows out to the sides, pointing your palms forward.\n\n
+                             How much to do: 20-25 arm raises.\n\n</string>
+
+    <string name="pose7">    Step 1:- Put your feet slightly wider than your shoulders, bend your arms at the elbows and place them in front of you parallel to the body, lower your palms down.\n\n
+                             Step 2:- Shift your body weight to the right leg, and bend the left at the knee, trying to touch the heel to the back of the thigh.\n\n
+                             Step 3:- At the same time, spread your elbows to the sides, bringing the shoulder blades together.\n\n
+                             Step 4:- Then shift your body weight to your left leg and repeat the movement.\n\n
+                             Step 5:- Perform the exercise rhythmically, synchronizing the actions of the hands with the movement of the legs.\n\n
+                             Step 6:- This exercise is suitable for weight loss with a weight of 100 kg or more, as it involves the top and bottom of the body without loading the joints.\n\n
+                            How much to do: 20-25 hand raises.\n\n
+                             </string>
+
+    <string name="pose8">    Step 1:- Stand straight, feet shoulder-width apart, put your hands on your belt. Raise your right hand up and lean to the left.\n\n
+                             Step 2:- Return to the starting position and raise your left hand, leaning to the right.\n\n
+                             Step 3:- Perform tilts with full amplitude, feeling the tension in the side of the body \n\n
+                             Step 4:- A simple exercise for overweight people is easy to do at home, as it does not require physical fitness. Tilts strengthen the core and abs muscles, stretch the spine, and develop overall strength and flexibility of the body.\n\n
+                             How much to do: 10-15 tilts on each side.\n\n
+                            </string>
+
+    <string name="pose9">    Step 1:- Stand with your feet shoulder-width apart, bend your arms at the elbows, clench your palms into fists \n\n
+                             Step 2:- Make a boxing stance - hands are almost pressed to the body, legs are slightly bent at the knees.\n\n
+                             Step 3:- Now turn your body to the left, vigorously punching with your right hand, as if on a punching bag.\n\n
+                             Step 4:- Without returning to the starting position, turn to the right, making a blow with your left hand. \n\n
+                             Step 5:- During each turn, bounce a little at the knees, helping yourself to punch in each direction. An excellent exercise for obese people at home activates metabolic processes, strengthens the arms, body and tone the muscles of the legs. \n\n
+                             How much to perform: 15-20 strokes on each side.\n\n
+                            </string>
+
+    <string name="pose10">   Step 1:- Stand up straight, put your feet shoulder-width apart. Place one palm on top of the other and raise your arms up. \n\n
+                             Step 2:- Now rhythmically raise your knees in turn, slightly diagonally. At the same time, lower your hands and try to touch your knees with your palms. \n\n
+                             Step 3:- Perform the exercise at a fast pace, synchronously and harmoniously, without losing the rhythm.\n\n
+                             Step 4:- Exercise pumps not only the heart muscle, but also the legs, core and arms, helping to get rid of extra pounds.\n\n
+                             How much to do: 25-30 lowering hands to the knees.\n\n
+                            </string>
+
+
+
+
+    <!--FITNESS don/t touch   SecondActivity_2 -->
+    <string name="f1">    Step 1:- Take a classic stance, but put your feet tightly together, and your arms along the body.\n\n
+                             Step 2:- Perform two movements together: in a jump, spread your legs wide and stretch your arms up, bringing them together above your head. \n\n
+                             Step 3:- Jump back to the pose from the beginning of the exercise. Do not pause between adduction and extension of the legs. \n\n
+                             Step 4:- One of the most popular cardio exercises and most often the start of any intense fat burning program.\n\n
+                             </string>
+
+    <string name="f2">    Step 1:-Stand in a normal stance, legs wider than shoulders, palms together at the back of the head.\n\n
+                             Step 2:- Sit down in a semi-squat, tilt the body forward a little, in the lower back there is a natural deflection.\n\n
+                             Step 3:- Begin to perform low-amplitude jumps in a squat without straightening, while turning right and left 90 degrees. \n\n
+                             Step 4:- Cardio exercise actively includes the muscles of the legs and buttocks, quickly accelerates the pulse and makes you burn more calories.\n\n
+                             </string>
+
+    <string name="f3">    Step 1:- Stand up straight, transfer support to your right leg, chest forward, arms bent near the body \n\n
+                             Step 2:- Make a powerful kick with your left foot to the side, putting force into the kick\n\n
+                             Step 3:- Tilt the body to the opposite side from the leg.\n\n
+                             Step 4:- Perform a whole set on one leg.\n\n
+                             Step 5:- This effective martial arts-inspired cardio exercise will help strengthen your leg muscles and abs and speed up fat burning without stressing your joints.\n\n
+                             </string>
+
+    <string name="f4">    Step 1:- Stand up straight and place your arms along your sides, as if you were jogging.\n\n
+                             Step 2:- Start alternately raising your hips to parallel with the floor, pushing off with one or the other leg. \n\n
+                             Step 3:- Change hands in time with the movements. \n\n
+                             Step 4:- Look forward, the stomach is tense, the body is stable and does not lean back.\n\n
+                             Step 5:- AOne of the best cardio exercises, which in terms of efficiency will completely replace fast running for home conditions.\n\n
+                             </string>
+
+    <string name="f5">   Step 1:- Stand in a knee-elbow position, rest on your palms.\n\n
+                             Step 2:- Raise your knees slightly off the floor, stay on your toes. \n\n
+                             Step 3:- Reach the left heel to the buttock, quickly change legs, repeat with the right heel. \n\n
+                             Step 4:- Keep your back and arms straight, look down.\n\n
+                             Step 5:- At first glance, the exercise seems simple, but due to the unstable position in the plank on all fours, the whole body is included in the work and there is a good calorie consumption.Additionally, the core muscles are pumped.\n\n
+
+                            </string>
+
+
+    <string name="f6">    Step 1:- Take the following stance - feet shoulder-width apart, elbows near the sides, forearms to the sides.\n\n
+                             Step 2:- Start imitating jumping rope. Lightly push off the floor with your feet, keep straight. \n\n
+                             Step 3:- Hands move along the body, as if rotating the rope. \n\n
+                             Step 4:- SThis cardio exercise is a great addition to any fat burning workout.\n\n
+                             </string>
+
+    <string name="f7">    Step 1:- Spread your legs shoulder-width apart, bring your palms of bent arms together at the back of your head\n\n
+                             Step 2:- Start alternately raising the knee to the level of the chest and at the same time tilt the body so that the elbow touches the knee. \n\n
+                             Step 3:- Keep up the pace, try to switch sides quickly. \n\n
+                             Step 4:- This exercise is great for beginners too, but our intermediate cardio at home workout includes it to ease the pace and lower your heart rate so you can get through the workout from start to finish.\n\n
+
+                             </string>
+
+    <string name="f8">    Step 1:- Stand in a normal position - feet shoulder-width apart, hands clasped near the chest.\n\n
+                             Step 2:- Push off lightly and spread your legs apart, landing in a classic squat position.\n\n
+                             Step 3:- Lower one hand between your legs, the other is laid back.\n\n
+                             Step 4:- Come back with a jump and then squat again, but already touch the floor with your other hand.\n\n
+                             Step 5:- One of the most popular squat-based exercises for home cardio workouts.\n\n
+                            </string>
+
+    <string name="f9">    Step 1:- To perform this intense cardio exercise at home, place yourself in a plank position with straight arms.\n\n
+                             Step 2:- Do not bend your elbows and rest on your palms.\n\n
+                             Step 3:- Start imitating running - in turn, pull your knees to your chest and take them back.\n\n
+                             Step 4:- Put your feet on your toes, do not change the line of the spine. Horizontal running is one of the best exercises for a toned stomach. \n\n
+                             Step 5:- Additionally, the entire upper body works due to the position of the bar and the thigh muscles due to knee pull-ups.\n\n
+
+                            </string>
+
+    <string name="f10">   Step 1:- Stand straight, bend your arms at the elbows, hands are located near the shoulders.  \n\n
+                             Step 2:- Without departing from the place, begin to carry out the overlaps of the legs\n\n
+                             Step 3:- The hips are parallel to the floor, and the knees clearly look down.\n\n
+                             Step 4:- Try to reach your buttocks with your heels. At the same time, it is necessary to alternately raise and lower your arms above your head up and down.\n\n
+                             Step 5:- Look forward, do not round your back. \n\n
+                             Step 6:- This exercise combines the benefits of regular running in place, but by lifting your arms you will use more muscles and burn more calories.\n\n
+                            </string>
+    <!--Reasons for not growing height:-->
+
+
+    <string-array name="title_story">
+        <item>Build More Muscle</item>
+        <item>Replace Coffee with Matcha Green Tea</item>
+        <item> Just Keep Moving</item>
+        <item>Stop Counting Calories</item>
+        <item> Pick Up a Kettlebell</item>
+        <item>Do Yoga</item>
+        <item>Get Intense</item>
+        <item> Stop Sleeping In</item>
+        <item>Make One Meal a Day Vegan</item>
+        <item>Go Green</item>
+        <item>Enjoy Some Lemon Water</item>
+        <item>Set Clear Goals </item>
+        <item> Fuel Up Before Your Workout</item>
+        <item> And Fuel Up After</item>
+        <item>Jump </item>
+        <item>Get At Least 7 Hours Sleep</item>
+        <item>Get Over the Crunch </item>
+        <item>Drop the Wheat</item>
+        <item>Change Up Your Workout</item>
+        <item>Work Your Abs 3 Days a Week</item>
+
+    </string-array>
+
+    <string-array name="details_story">
+        <item>Build More Muscle:-\n\n1.This one may sound counter-intuitive at first, but building more muscle mass is one of the best ways to enhance your metabolism. A higher metabolic rate means that your body can burn more fat, including fat around your waistline. This is an important step in getting 6 pack results, because no matter how many crunches you do, you won’t see all your hard work without burning off some fat. So hit the weights!</item>
+        <item>Replace Coffee with Matcha Green Tea:-\n\n2. Consuming thermogenic foods, like those that contain caffeine, is another effective way to boost metabolism. Although coffee will do it, matcha green tea is even better for your health, and it doesn’t come with the jitters. Try it here – Green Foods Matcha Green Tea.
+</item>
+        <item> Just Keep Moving:-\n\n3. Research shows that even the smallest movements, like fidgeting or tapping your toes, can actually burn a lot of calories. And burning more calories is a critical step to seeing 6 pack abs. So keep moving throughout your day, and try not to sit for too long.
+
+ </item>
+        <item>Stop Counting Calories:-\n\n4.I’ve never been a big fan of counting calories. It’s misleading, and it allows you to ignore the nutritional content of your food. Rather than counting calories, make it your goal to eat only whole foods, and remove the processed and packages stuff. </item>
+        <item>Pick Up a Kettlebell:-\n\n5. Kettlebells are a great alternative to dumbbells, and they can be used for a variety of intense, full body exercises that are great for getting your abs and core into shape. (See my 15 Minute Killer Kettlebell workout here) </item>
+        <item> Do Yoga:-\n\n6. You may be surprised, but yoga is a great way to get 6 pack abs. Yoga involves a lot of balance and flexibility training, both of which require muscles that you normally don’t work out. And of all the muscles engaged, your abdominal and core muscles are doing a lot of the work. See better 6 pack results by adding a little yoga into your routine. If you’re a beginner, check out this Gaiam Yoga for Beginners Kit . </item>
+        <item>Get Intense:-\n\n7. Total body fitness is really about quality over quantity. Spending hours in the gym or getting in a long treadmill workout simply won’t cut it. For real results, you need to get intense. Aim for shorter intervals of more intense exercise, no matter what you’re doing. (An excellent resource is our 5 Day Total Body Toning Workout). </item>
+        <item>Stop Sleeping In:-\n\n8. If you want to achieve real 6 pack success, you’ve got to get motivated. Hitting the snooze button is not the best way to start your day. Get up, and hammer out that morning workout to start things off on the right foot.</item>
+        <item>Make One Meal a Day Vegan:-\n\n9. Reducing your intake of animal protein can help improve your health in a number of ways, according to new research. In addition to reducing cholesterol and getting your blood sugar levels in check, you’ll also reduce some of that body fat. Try going vegan for one meal a day. </item>
+        <item>Go Green:-\n\n 10. An easy way to add more nutrition to your diet is to invest in a plant-based supplement like Amazing Grass Green SuperFood Powder. Not only will you boost your metabolism and burn more fat, you’ll also feel more energized to knock out those ab workouts.</item>
+        <item>Enjoy Some Lemon Water:-\n\n 11.If you’re looking for a natural daily detox, simple lemon water works really well. Enjoy it hot in the mornings, or take it with you on the go. You’ll significantly improve your ability to lose weight.</item>
+        <item>Set Clear Goals :-\n\n 12. Whether your goal is stronger abs or just a flatter waistline, you have to set some clear goals. Write your goals down, and come up with some specific ways to achieve them. And make sure your goals are practical!</item>
+        <item> Fuel Up Before Your Workout:-\n\n 13.Giving your body the fuel it needs is key to maximizing your workouts. A pre-workout shake is a great way to get started, especially one that includes time released protein to keep fueling your muscles. Try Combat Powder to get great results.</item>
+        <item> And Fuel Up After:- \n\n 14.Make sure you follow up every workout with a solid serving of protein, healthy carbs, and vitamin-rich food. This is necessary in order to get the most out of your efforts, and improve your recovery. </item>
+        <item>Jump :-\n\n 15.  Jump training, also known as plyometrics, is a great way to engage your entire body and really challenge your core and abdominal muscles. Adding a little jump rope alone can go a long way. (This Jump Rope Interval Training Routine will kick your butt and really target fat loss)</item>
+        <item>Get At Least 7 Hours Sleep:-\n\n 16. Getting a good night’s sleep can improve literally every aspect of your life, including your fitness and weight loss success. One night of poor sleep can lead to unwanted hunger spikes, nasty cravings, and lower energy. If you need some help sleeping, try Natrol Melatonin.</item>
+        <item>Get Over the Crunch :-\n\n 17. Real 6 pack abs are not made by crunches alone. To see serious results, you’ve got to do more than just simple crunches. Grab a stability ball, a bosu ball, or get off the ground with a hanging leg raise. Whatever you do, keep pushing yourself.</item>
+        <item>Drop the Wheat:-\n\n 18. There’s a lot of evidence out there to suggest that removing processed wheat from your diet can significantly improve your fat burning results, and that means a leaner, more toned, and more visible 6 pack. Give it a try, and go for less processed carbs like quinoa.</item>
+        <item>Change Up Your Workout:-\n\n 19. Constantly changing up your workout is crucial to keep seeing results, whether your goal is a 6 pack or a more toned physique overall. I recommend adding a new exercise to your workout routine at least once a week, and make sure you make sure serious changes every 6-8 weeks.</item>
+        <item>Work Your Abs 3 Days a Week:-\n\n 20.There are different philosophies to this, but I find the best approach to exercising your abs is to do so a few days a week, in shorter workouts that are combined with total body workouts. Try spending about 20 minutes on your abs and core 3 days a week – you may notice a big difference. This Total Ab Workout in 30 Minutes is a great place to start.</item>
+    </string-array>
+
+
+    <string name="clear_calories">Clear calories</string>
+    <string name="calories">Calories</string>
+    <string name="change_daily_calorie_count">Change daily calorie count</string>
+    <string name="apply">Apply</string>
+    <string name="calories_eaten_today">Calories eaten today:</string>
+    <string name="daily_calories">Daily calories</string>
+    <string name="view_progress">View progress</string>
+    <string name="delete_all_data">Delete all data</string>
+
+
+
+<!--    мед-->
+        <!-- Common -->
+        <string name="yes">Yes</string>
+        <string name="no">No</string>
+        <string name="close">Close</string>
+        <string name="cancel">Cancel</string>
+        <string name="edit">Edit</string>
+        <string name="submit">Submit</string>
+        <string name="save_changes">Save Changes</string>
+        <string name="save">Save</string>
+        <string name="you">You</string>
+        <string name="your">Your</string>
+        <string name="ok">OK</string>
+        <string name="delete">Delete</string>
+        <string name="i_agree">I agree</string>
+
+        <!-- Errors -->
+        <string name="invalid_value">Invalid value entered</string>
+        <string name="must_be_positive_int">Value must be a positive integer</string>
+        <string name="val_too_big">Provided value is too big</string>
+        <string name="cannot_exceed_50">Provided value cannot exceed 50</string>
+        <string name="must_be_greater_than_0">Provided value must be greater than 0</string>
+        <string name="provided_name_invalid">Provided name is invalid</string>
+        <string name="err_provide_name">Please provide a name</string>
+        <string name="err_enter_dosage">Please enter a dosage</string>
+        <string name="err_units_for_med">Please enter the units for this medication</string>
+        <string name="err_select_frequency">Please select a frequency type</string>
+        <string name="err_select_time">Please select a time</string>
+        <string name="err_select_start_date">Please select a start date.</string>
+        <string name="err_enter_num_timers_per_day">Please enter the number of times this medication is taken in a day</string>
+        <string name="err_enter_med_freq">Please enter how often the medication is taken.</string>
+        <string name="err_enter_time_unit">Please select a time unit.</string>
+        <string name="err_name_for_med">Please enter a name for this medication</string>
+
+        <!-- Time formats -->
+        <string name="date_format">Mmm dd, yyyy</string>
+        <string name="time_format">hh:mm aa</string>
+
+        <!-- Time -->
+        <string name="sunday">Sunday</string>
+        <string name="monday">Monday</string>
+        <string name="tuesday">Tuesday</string>
+        <string name="wednesday">Wednesday</string>
+        <string name="thursday">Thursday</string>
+        <string name="friday">Friday</string>
+        <string name="saturday">Saturday</string>
+        <string name="minutes">Minutes</string>
+        <string name="hours">Hours</string>
+        <string name="days">Days</string>
+        <string name="weeks">Weeks</string>
+
+        <!-- MainActivity -->
+        <string name="no_medications_found">No medications found</string>
+        <string name="med_schedule">Medication Schedule</string>
+        <string name="no_meds_for_day">No medications for %1$s</string>
+        <string name="cannot_take_more_than_hours">Cannot take medications more than %1$d hours in advance</string>
+        <string name="as_needed_dose">As Needed Dose</string>
+        <string name="welcome">Welcome to Medication!</string>
+        <string name="warranty_info">
+        This application is meant to assist in keeping track of your medications. It is not intended
+        to provide medical advice and no information provided by this application should be misconstrued
+        as such. The creators of this application are not responsible are not responsible for any missed
+        doses of your medications for any reason. If you require medical assistance, please contact a medical professional.
+
+    </string>
+
+        <!-- Add/EditMedication -->
+        <string name="add_medication">Add Medication</string>
+        <string name="edit_medication">Edit Medication</string>
+        <string name="delete_medication">Delete Medication</string>
+        <string name="note_timestamp">Date: %1$s at: %2$s</string>
+        <string name="patient_changed">Patient changed from %1$s to %2$s\n</string>
+        <string name="name_changed">Name changed from %1$s to %2$s\n</string>
+        <string name="removed_alias">Alias %1$s removed\n</string>
+        <string name="added_alias">Alias %1$s added\n</string>
+        <string name="changed_alias">Alias changed from %1$s to %2$s\n</string>
+        <string name="changed_dosage">Dosage changed from %1$s to %2$s\n</string>
+        <string name="frequency_changed">Frequency changed from %1$s to %2$s\n</string>
+        <string name="times_per">Times per</string>
+        <string name="patientIsMe">Me</string>
+        <string name="patient">Patient</string>
+        <string name="other">Other</string>
+        <string name="name">Name</string>
+        <string name="medication_name">Medication Name</string>
+        <string name="medication_dosage">Dosage</string>
+        <string name="medication_frequency">Frequency</string>
+        <string name="taken_every">Taken Every</string>
+        <string name="units">Units</string>
+        <string name="taken">Taken</string>
+        <string name="frequency">Frequency</string>
+        <string name="multiple_times_per_day">Multiple Times per Day</string>
+        <string name="as_needed">As Needed</string>
+        <string name="daily">Daily</string>
+        <string name="weekly">Weekly</string>
+        <string name="monthly">Monthly</string>
+        <string name="medication_name_amp_dosage"><![CDATA[Medication Name & Dosage]]></string>
+        <string name="who_takes_this_medication">Who takes this medication?</string>
+        <string name="someone_else">Someone else</string>
+        <string name="what_is_the_medication_s_name_amp_how_much_is_taken"><![CDATA[What is the medication\'s name & how much is taken?]]></string>
+        <string name="alias_for_notifications">Alias for notifications</string>
+        <string name="how_often_is_the_medication_taken">How often is the medication taken?</string>
+        <string name="start_date">Start Date</string>
+        <string name="taken_at">Taken at</string>
+        <string name="unit_of_time">Unit of Time</string>
+        <string name="custom_frequency">Custom Frequency</string>
+        <string name="at_n_n_tap_to_set_time">At: \n\n Tap to set time</string>
+        <string name="times_per_day">Times per day</string>
+        <string name="atThisTime">At: Tap to set time</string>
+        <string name="starting">Starting:</string>
+        <string name="alias_for_medication">Alias for medication</string>
+        <string name="alias_for_medication_displays_notification">Alias for medication displays notification</string>
+        <string name="medication_alias_displays_in_notification">Medication alias displays in notification</string>
+        <string name="place_holder_tap_again_then_hit_cancel">Place holder, tap again then hit cancel</string>
+        <string name="yourMedications">Your Medications:</string>
+        <string name="no_notes_for_this_medication">No notes for this medication</string>
+        <string name="unitExample">Ex. mg, g, drops</string>
+        <string name="patient_name">Patient Name:</string>
+        <string name="no_alias">No alias</string>
+        <string name="tap_to_set_date">Tap to set date</string>
+        <string name="at">At:</string>
+        <string name="tap_to_set_time">Tap to set Time</string>
+        <string name="apply_retroactive">Apply Changes Retroactively</string>
+        <string name="retroactive_warning">Warning: Changes to frequency may cause previously taken doses to no longer be visible in the schedule.</string>
+        <string name="would_like_apply_retroactively">Changes to dosage and frequency can be applied retroactively as of the previous change. Would you like to apply these changes retroactively?</string>
+        <string name="apply_changes_as_of">Apply changes as of:</string>
+        <string name="from_med_last_change">Last change</string>
+        <string name="from_med_start">Start of medication</string>
+
+        <!-- MyMedications -->
+        <string name="my_medications">My Medications</string>
+        <string name="med_name">Medication name: %1$s</string>
+        <string name="dosage">Dosage: %1$s %2$s</string>
+        <string name="taken_daily_at">Taken daily at: </string>
+        <string name="taken_every_lbl">Taken every: </string>
+        <string name="alias_lbl">Alias: %1$s</string>
+        <string name="taken_since">Taken since: %1$s</string>
+        <string name="taken_as_needed">Taken as needed.</string>
+        <string name="all_previous_edits_overridden">All previous changes overridden.</string>
+
+        <!-- Notes -->
+        <string name="notes">Notes</string>
+        <string name="add_note">Add Note</string>
+        <string name="edit_note">Edit Note</string>
+
+        <!-- Settings Activity -->
+        <string name="settings">Settings</string>
+        <string name="options">Options</string>
+        <string name="license">License</string>
+        <string name="purpose">Medication is a application designed to help you keep track of your medications, so you can more easily answer the question \"did I take my medication yesterday?\"</string>
+
+        <string name="licenseInfo">Give permission to receive notifications</string>
+        <string name="warranty">
+        Give permission to receive notifications
+    </string>
+        <string name="cannot_take_medication_more_than">Cannot take medication more than</string>
+        <string name="hours_in_advance">hours in advance</string>
+        <string name="title_activity_settings">Settings</string>
+        <string name="delete_all">Delete All</string>
+        <string name="pause_medication">Pause Medication</string>
+        <string name="resume_medication">Resume Medication</string>
+        <string name="pause_message">Are you sure you want to pause %1$s? It will no longer appear in your schedule, but may be resumed at any time.</string>
+        <string name="resume_message">Resuming %1$s will restore it to your schedule. Are you sure you want to proceed?</string>
+        <string name="enable_notifications">Enable Notifications</string>
+        <string name="disable_time_before_dose_requirement">Disable time in advance limit</string>
+        <string name="theme">Theme</string>
+        <string name="light_mode">Light mode</string>
+        <string name="dark_mode">Dark mode</string>
+        <string name="match_system_theme">System default</string>
+        <string name="number_of_hours_before_dose_can_be_taken">Limit before which medication cannot be taken:</string>
+
+        <!-- Dose Info dialog -->
+        <string name="not_taken_yet">Not yet taken</string>
+        <string name="not_taken">Not taken</string>
+        <string name="marked_taken_at">Marked taken at</string>
+        <string name="dose_information">Dose information</string>
+        <string name="time_taken">Time Taken</string>
+        <string name="date_taken">Date Taken</string>
+        <string name="this_dose">This Dose</string>
+
+        <!-- Delete Everything -->
+
+        <string name="delete_all_data_cannot_be_undone">Delete all saved data? This action cannot be undone.</string>
+        <string name="all_data_deleted">All data has been deleted</string>
+
+        <!-- Notifications -->
+        <string name="mark_as_taken">Taken</string>
+        <string name="snooze_message">Snooze</string>
+        <string name="its_time_your_med">It\'s time to take your %1$s</string>
+        <string name="time_for_other_med">It\'s time for %1$s\'s %2$s</string>
+        <string name="add_dose">Add Dose</string>
+
+
+    <string name="daily_goal_2000_ml">Daily Goal: 2000 ml</string>
+    <string name="consumed">Consumed: 0 ml</string>
+    <string name="add_50ml">Add 50ml</string>
+    <string name="add_100ml">Add 100ml</string>
+    <string name="add_150ml">Add 150ml</string>
+    <string name="add_200ml">Add 200ml</string>
+    <string name="delete_entry">Delete Entry</string>
+
+</resources>

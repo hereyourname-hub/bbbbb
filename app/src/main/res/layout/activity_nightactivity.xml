@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/nightrootlayout"
+    android:background="@color/bg">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/goodnight"
+        android:textAlignment="center"
+        android:fontFamily="@font/manropebold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="Good night"></TextView>
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:id="@+id/textclock"
+        android:textSize="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:format24Hour="HH:mm"
+        android:textAlignment="center"
+        android:text="23:00"
+        android:fontFamily="@font/manropebold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/goodnight"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_gravity="center"
+        android:textColor="@color/white"></TextClock>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/moonimageview"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textclock"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/moon"></ImageView>
+
+
+    <ImageView
+        android:id="@+id/slideupmoon"
+        android:layout_width="341dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:src="@drawable/slideupmoon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/moonimageview"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@id/moonimageview"
+        app:layout_constraintTop_toBottomOf="@+id/moonimageview"
+        app:layout_constraintVertical_bias="0.787"></ImageView>
+
+    <TextView
+        android:id="@+id/titlemoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratregular"
+        android:text="Swipe up to stop tracking"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+
+
+        app:layout_constraintBottom_toBottomOf="@+id/slideupmoon"
+        app:layout_constraintEnd_toEndOf="@id/slideupmoon"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@id/slideupmoon"
+        app:layout_constraintTop_toTopOf="@+id/slideupmoon"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="108dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/arrowup"
+        app:layout_constraintEnd_toEndOf="@id/slideupmoon"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@id/slideupmoon"
+        app:layout_constraintTop_toBottomOf="@+id/moonimageview"
+        app:tint="@color/white"></ImageView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
